@@ -18462,7 +18462,8 @@ void verify_uart(char *arr) {
 
         }
 
-        switch (arr[0]) {
+        if (arr[7] == '$') {
+            switch (arr[0]) {
             case '1':
                 if (arr[1] == '1') {
                     LATAbits.LATA5 = 1;
@@ -18488,6 +18489,8 @@ void verify_uart(char *arr) {
                 printf("Gecerli bir say? giriniz (1-3)");
                 break;
         }
+        }
+
 
 
     }

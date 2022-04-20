@@ -10,11 +10,11 @@
 ### Memory Usage ###
  Intel Hex-file ranges:
   0h - 3h		(dist/default/production\circular_buffer.X.production.hex)
-  8h - 759h		(dist/default/production\circular_buffer.X.production.hex)
+  8h - 76Dh		(dist/default/production\circular_buffer.X.production.hex)
   1000Eh - 10017h		(dist/default/production\circular_buffer.X.production.hex)
  Unused ranges:
   4h - 7h
-  75Ah - 1000Dh
+  76Eh - 1000Dh
 
 ### Hex Memory Map ###
  Legend:
@@ -140,7 +140,8 @@
 00000720 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000730 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000740 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00000750 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
+00000750 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000760 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
 ----------------------------------------------------------
 00010000 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
 00010010 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
